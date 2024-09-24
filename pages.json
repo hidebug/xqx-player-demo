@@ -1,0 +1,103 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/watch/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/playlet/episodes",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/playlet/detail",
+			"style": {
+				"app-plus": {
+					"bounce": "none"
+				},
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "MaiShort",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	},
+
+	"tabBar": {
+		"color": "#636363",
+		"selectedColor": "#f44627",
+		"borderStyle": "black",
+		"fontSize": "12px",
+		"iconWidth": "22px",
+		"height": "60px",
+		"backgroundColor": "#141818",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/index-cur.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/watch/index",
+				"iconPath": "static/tabbar/subs.png",
+				"selectedIconPath": "static/tabbar/subs-cur.png",
+				"text": "在追"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user-cur.png",
+				"text": "我的"
+			}
+		]
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "XQXPlugin", //模式名称
+			"path": "pages/index/index", //启动页面
+			"query": "" //启动参数
+		}]
+	}
+}
