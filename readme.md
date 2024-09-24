@@ -6,7 +6,7 @@
 
 视频插件使用xqx-player，[插件链接点击这里](https://ext.dcloud.net.cn/plugin?id=20373)
 
-<font color="#ff810a">注意：demo和视频插件均基于uniapp实现，而非uniapp x，这点请大家务必注意，避免因兼容问题照成不可用而损失</font>
+### _注意：demo和视频插件均基于uniapp实现，而非uniapp x，这点请大家务必注意，避免因兼容问题照成不可用而损失_
 
 ### 主要功能供包括：
 
