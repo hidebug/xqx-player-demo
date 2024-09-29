@@ -27,3 +27,6 @@
 ### 演示视频
 [观看演示视频](https://env-00jxhb2rkow0.normal.cloudstatic.cn/xqx-playlet/xqx-playler_v1.5.6_2.mp4)
 
+### 沟通
+QQ：3935691637
+
